@@ -316,7 +316,7 @@
     }
     
     form input {
-        width: 100%;
+        width: 90%;
         margin: 5px 0;
         border-left: 0;
         border-right: 0;
@@ -503,7 +503,7 @@
         }
     }
     
-    @media screen and (max-width: 610px) {
+    @media screen and (max-width: 425px) {
         nav {
             width: 88%;
         }
@@ -536,11 +536,20 @@
         .rt>h2 {
             font-size: 20px;
         }
-        .frm {
-            width: 90vh;
-        }
         .brand h1 {
             font-size: 20px;
+        }
+        .lt {
+            display: none;
+        }
+        .ltt {
+            display: none;
+        }
+        .frm {
+            width: 90%;
+        }
+        form>input {
+            width: 100%;
         }
     }
     
